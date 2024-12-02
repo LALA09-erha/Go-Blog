@@ -57,13 +57,13 @@ This is a REST API built with Golang for managing:
 4. Set up the database:
 
    ```bash
-   go run main.go migrate
+   go run cmd/main.go migrate
    ```
 
 5. Run the application:
 
    ```bash
-   go run main.go
+   go run cmd/main.go
    ```
 
    The server will start at http://localhost:8080.
